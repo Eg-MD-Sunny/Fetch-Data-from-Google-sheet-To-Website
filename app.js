@@ -1,7 +1,9 @@
 //Data fatchig from Google Sheet Api
+
 fetch('https://sheet.best/api/sheets/d9d83c15-39fa-4af6-99e5-c35af36f2034')
 .then(res => res.json())
 .then(data=>{
+    
     //console.log(data);
     if(data.length > 0){
         var temp = " ";
